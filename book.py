@@ -8,7 +8,7 @@ class Book:
     
     def display_info(self):
         status = "Available" if self.available else "Not Available"
-        return f"ID: {self.book_id}, Title: {self.title}, Author: {self.author}, ISBN: {self.isbn}, Status: {status}"
+        return f" ID: {self.book_id}\n Title: {self.title}\n Author: {self.author}\n ISBN: {self.isbn}\n Status: {status}"
     
     def update_availability(self, is_available):
         self.available = is_available

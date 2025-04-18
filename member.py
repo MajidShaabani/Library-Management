@@ -6,7 +6,7 @@ class Member:
         self.borrowed_books = borrowed_books if borrowed_books else []
     
     def display_info(self):
-        return f"ID: {self.member_id}, Name: {self.name}, Contact: {self.contact}, Books Borrowed: {len(self.borrowed_books)}"
+        return f" ID: {self.member_id}\n Name: {self.name}\n Contact: {self.contact}\n Books Borrowed: {len(self.borrowed_books)}"
     
     def borrow_book(self, book_id):
         if book_id not in self.borrowed_books:
