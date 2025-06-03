@@ -19,10 +19,20 @@ def validate_isbn(isbn):
     return True
 
 def validate_name(name):
-    # Name should be at least 2 characters and contain only letters and spaces
-    if len(name) < 2:
+    # Name should be between 2 and 50 characters and contain only letters and spaces
+    if len(name) < 2 or len(name) > 50:
         return False
     return bool(re.match(r"^[a-zA-Z\s]+$", name))
+
+def validate_title(title):
+    # Title should be between 1 and 100 characters
+    return 1 <= len(title) <= 100
+
+def validate_author(author):
+    # Author name should be between 2 and 50 characters and contain only letters and spaces
+    if len(author) < 2 or len(author) > 50:
+        return False
+    return bool(re.match(r"^[a-zA-Z\s.,-]+$", author))
 
 def validate_contact(contact):
     # Simple email or phone validation with regex
