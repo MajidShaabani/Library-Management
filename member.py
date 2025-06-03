@@ -1,7 +1,12 @@
 class Member:
     def __init__(self, member_id, name, contact, borrowed_books=None):
         self.member_id = member_id
+        
+        # Apply length limitation
+        if len(name) > 50:
+            name = name[:50]
         self.name = name
+        
         self.contact = contact
         self.borrowed_books = borrowed_books if borrowed_books else []
     
