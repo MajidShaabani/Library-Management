@@ -1,0 +1,21 @@
+book_id,title,author,isbn,available
+1,To Kill a Mockingbird,Harper Lee,5133256304749,True
+2,1984,George Orwell,4648157438436,True
+3,Pride and Prejudice,Jane Austen,9935779213673,True
+4,The Great Gatsby,F. Scott Fitzgerald,6879983406088,True
+5,Moby-Dick,Herman Melville,5192830861311,True
+6,War and Peace,Leo Tolstoy,6266342206736,True
+7,The Catcher in the Rye,J. D. Salinger,8390412853732,True
+8,The Hobbit,J. R. R. Tolkien,8642022689138,True
+9,Crime and Punishment,Fyodor Dostoevsky,9147807541937,True
+10,The Brothers Karamazov,Fyodor Dostoevsky,7715002717875,True
+11,Brave New World,Aldous Huxley,7249036778016,True
+12,Jane Eyre,Charlotte Brontë,8059109585464,True
+13,Wuthering Heights,Emily Brontë,3490259781053,True
+14,The Lord of the Rings,J. R. R. Tolkien,4532080623518,True
+15,Ulysses,James Joyce,5175553380538,True
+16,The Odyssey,Homer,1351179259867,True
+17,Invisible Man,Ralph Ellison,6339334869756,True
+18,One Hundred Years of Solitude,Gabriel García Márquez,4895572555411,True
+19,Don Quixote,Miguel de Cervantes,2915227470523,True
+20,The Divine Comedy,Dante Alighieri,1822799425403,True
